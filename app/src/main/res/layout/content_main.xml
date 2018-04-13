@@ -37,21 +37,6 @@
         app:layout_constraintTop_toBottomOf="@+id/colorTwo_View" />
 
     <Button
-        android:id="@+id/colorBlender"
-        android:layout_width="98dp"
-        android:layout_height="50dp"
-        android:layout_marginBottom="10dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="30dp"
-        android:onClick="blendColors"
-        android:text="Color Blender"
-        app:layout_constraintBottom_toTopOf="@+id/seekBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/blended_Colors" />
-
-    <Button
         android:id="@+id/colorOne_View"
         android:layout_width="150dp"
         android:layout_height="110dp"
@@ -94,6 +79,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/colorBlender" />
+
+    <TextView
+        android:id="@+id/colorBlender"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Choose two colors and use bar to blend colors together"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blended_Colors" />
 
 
 </android.support.constraint.ConstraintLayout>
